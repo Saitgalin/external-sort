@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "start": "npx tsc --project  tsconfig.json && node --max-old-space-size=512 dist/app.js"
+    },
+    "dependencies": {
+        "typescript": "^4.9.5"
+    },
+    "devDependencies": {
+        "@types/es6-promise": "^3.3.0",
+        "@types/node": "^18.15.11"
+    }
+}
